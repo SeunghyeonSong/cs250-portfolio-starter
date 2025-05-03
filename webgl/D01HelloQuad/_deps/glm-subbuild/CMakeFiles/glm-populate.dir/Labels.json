@@ -2,37 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/CMakeFiles/glm-populate"
+			"file" : "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/CMakeFiles/glm-populate"
 		},
 		{
-			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/CMakeFiles/glm-populate.rule"
+			"file" : "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/CMakeFiles/glm-populate.rule"
 		},
 		{
-			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/CMakeFiles/glm-populate-complete.rule"
+			"file" : "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/CMakeFiles/glm-populate-complete.rule"
 		},
 		{
-			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build.rule"
+			"file" : "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build.rule"
 		},
 		{
-			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure.rule"
+			"file" : "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure.rule"
 		},
 		{
-			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download.rule"
+			"file" : "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download.rule"
 		},
 		{
-			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install.rule"
+			"file" : "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install.rule"
 		},
 		{
-			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir.rule"
+			"file" : "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir.rule"
 		},
 		{
-			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch.rule"
+			"file" : "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch.rule"
 		},
 		{
-			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test.rule"
-		},
-		{
-			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update.rule"
+			"file" : "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test.rule"
 		}
 	],
 	"target" : 

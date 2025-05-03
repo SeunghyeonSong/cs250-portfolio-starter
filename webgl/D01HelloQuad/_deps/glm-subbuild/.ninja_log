@@ -1,21 +1,19 @@
-# ninja log v6
-3	87	7679880585820255	glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	308f70292226ca37
-3	87	7679880585820255	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	308f70292226ca37
-1903	1981	7679880604704458	glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	ae27c25de8a00f60
-2307	2388	7679880608819322	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	97e52626fae55865
-87	1903	7679880603977106	glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	7de0c334a65ab967
-87	1903	7679880603977106	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	7de0c334a65ab967
-1903	1981	7679880604704458	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	ae27c25de8a00f60
-1986	2065	7679880605593551	glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	198bc3f53265605c
-2144	2227	7679880607227815	glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	c1ecfa675dd866b6
-1986	2065	7679880605593551	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	198bc3f53265605c
-2065	2144	7679880606390265	glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	879a17a8af9953d1
-2065	2144	7679880606390265	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	879a17a8af9953d1
-2144	2227	7679880607227815	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	c1ecfa675dd866b6
-2228	2307	7679880608019876	glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	88e74c97113f3eaa
-2228	2307	7679880608019876	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	88e74c97113f3eaa
-2388	2493	7679880609885264	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/CMakeFiles/glm-populate-complete	55c520ba4f5710fc
-2307	2388	7679880608819322	glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	97e52626fae55865
-2388	2493	7679880609885264	CMakeFiles/glm-populate-complete	55c520ba4f5710fc
-2388	2493	7679880609885264	glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	55c520ba4f5710fc
-2388	2493	7679880609885264	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	55c520ba4f5710fc
+# ninja log v5
+59	180	1746288938254079800	glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	9ff1d9f6755f48d6
+59	180	1746288938254079800	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	9ff1d9f6755f48d6
+190	3929	1746288942001100000	glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	7169b22b617a9984
+190	3929	1746288942001100000	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	7169b22b617a9984
+3936	3965	1746288942037551700	glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	280682172f36b715
+3936	3965	1746288942037551700	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	280682172f36b715
+3972	4001	1746288942073038600	glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	e366720b3a4b57ba
+3972	4001	1746288942073038600	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	e366720b3a4b57ba
+4009	4039	1746288942110866400	glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	ea2dfb783d3c22e4
+4009	4039	1746288942110866400	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	ea2dfb783d3c22e4
+4047	4076	1746288942147662300	glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	b4c63dd65a6abc54
+4047	4076	1746288942147662300	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	b4c63dd65a6abc54
+4083	4113	1746288942183928500	glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	6406c2f507c0ba9d
+4083	4113	1746288942183928500	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	6406c2f507c0ba9d
+4119	4163	1746288942234558100	CMakeFiles/glm-populate-complete	68baaf5f0b6bfa8f
+4119	4163	1746288942234558100	glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	68baaf5f0b6bfa8f
+4119	4163	1746288942234558100	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/CMakeFiles/glm-populate-complete	68baaf5f0b6bfa8f
+4119	4163	1746288942234558100	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	68baaf5f0b6bfa8f

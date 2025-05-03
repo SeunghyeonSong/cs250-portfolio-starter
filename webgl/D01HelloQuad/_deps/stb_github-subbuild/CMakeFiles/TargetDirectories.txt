@@ -1,3 +1,3 @@
-D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/stb_github-subbuild/CMakeFiles/stb_github-populate.dir
-D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/stb_github-subbuild/CMakeFiles/edit_cache.dir
-D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/stb_github-subbuild/CMakeFiles/rebuild_cache.dir
+/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/stb_github-subbuild/CMakeFiles/stb_github-populate.dir
+/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/stb_github-subbuild/CMakeFiles/edit_cache.dir
+/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/stb_github-subbuild/CMakeFiles/rebuild_cache.dir

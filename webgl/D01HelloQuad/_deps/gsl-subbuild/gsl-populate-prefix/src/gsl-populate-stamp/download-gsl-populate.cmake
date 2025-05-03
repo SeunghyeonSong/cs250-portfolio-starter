@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-       file='D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz'")
+       file='/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz'")
 
-  file("MD5" "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz" actual_value)
+  file("MD5" "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "7e6883a254e73a8b2368a0d26efe68a7")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS "MD5 hash of
-    D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz
+    /mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz
   does not match expected value
     expected: '7e6883a254e73a8b2368a0d26efe68a7'
       actual: '${actual_value}'")
@@ -71,7 +71,7 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if("D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz" STREQUAL "")
+if("/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz" STREQUAL "")
   message(FATAL_ERROR "LOCAL can't be empty")
 endif()
 
@@ -79,36 +79,36 @@ if("https://github.com/microsoft/GSL/archive/refs/tags/v4.1.0.tar.gz" STREQUAL "
   message(FATAL_ERROR "REMOTE can't be empty")
 endif()
 
-if(EXISTS "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz")
+if(EXISTS "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-  file='D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz'
+  file='/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz'
   MD5='7e6883a254e73a8b2368a0d26efe68a7'"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-      file(REMOVE "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz")
+      file(REMOVE "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz'
+  file='/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz")
+    file(REMOVE "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-   dst='D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz'
+   dst='/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz'
    timeout='none'
    inactivity timeout='none'"
 )
-set(download_retry_codes 7 6 8 15 28)
+set(download_retry_codes 7 6 8 15)
 set(skip_url_list)
 set(status_code)
 foreach(i RANGE ${retry_number})
@@ -126,7 +126,7 @@ foreach(i RANGE ${retry_number})
 
       file(
         DOWNLOAD
-        "${url}" "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz"
+        "${url}" "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz"
         SHOW_PROGRESS
         # no TIMEOUT
         # no INACTIVITY_TIMEOUT
@@ -143,7 +143,7 @@ foreach(i RANGE ${retry_number})
         check_file_hash(has_hash hash_is_good)
         if(has_hash AND NOT hash_is_good)
           message(STATUS "Hash mismatch, removing...")
-          file(REMOVE "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz")
+          file(REMOVE "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.1.0.tar.gz")
         else()
           message(STATUS "Downloading... done")
           return()

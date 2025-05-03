@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-       file='D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z'")
+       file='/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z'")
 
-  file("MD5" "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z" actual_value)
+  file("MD5" "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "6db43fc749c8acdc8ccb9815b1a57f62")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS "MD5 hash of
-    D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z
+    /mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z
   does not match expected value
     expected: '6db43fc749c8acdc8ccb9815b1a57f62'
       actual: '${actual_value}'")
@@ -71,7 +71,7 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if("D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z" STREQUAL "")
+if("/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z" STREQUAL "")
   message(FATAL_ERROR "LOCAL can't be empty")
 endif()
 
@@ -79,36 +79,36 @@ if("https://github.com/g-truc/glm/releases/download/1.0.1/glm-1.0.1-light.7z" ST
   message(FATAL_ERROR "REMOTE can't be empty")
 endif()
 
-if(EXISTS "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z")
+if(EXISTS "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-  file='D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z'
+  file='/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z'
   MD5='6db43fc749c8acdc8ccb9815b1a57f62'"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-      file(REMOVE "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z")
+      file(REMOVE "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z'
+  file='/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z")
+    file(REMOVE "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-   dst='D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z'
+   dst='/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z'
    timeout='none'
    inactivity timeout='none'"
 )
-set(download_retry_codes 7 6 8 15 28)
+set(download_retry_codes 7 6 8 15)
 set(skip_url_list)
 set(status_code)
 foreach(i RANGE ${retry_number})
@@ -126,7 +126,7 @@ foreach(i RANGE ${retry_number})
 
       file(
         DOWNLOAD
-        "${url}" "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z"
+        "${url}" "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z"
         SHOW_PROGRESS
         # no TIMEOUT
         # no INACTIVITY_TIMEOUT
@@ -143,7 +143,7 @@ foreach(i RANGE ${retry_number})
         check_file_hash(has_hash hash_is_good)
         if(has_hash AND NOT hash_is_good)
           message(STATUS "Hash mismatch, removing...")
-          file(REMOVE "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z")
+          file(REMOVE "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-subbuild/glm-populate-prefix/src/glm-1.0.1-light.7z")
         else()
           message(STATUS "Downloading... done")
           return()

@@ -69,22 +69,53 @@
 
     <div class="portfolio-item-individual">
         <h2>Project Overview</h2>
-        <p>Provide a brief description of the project, its purpose, and what you aimed to achieve.</p>
-
+        <p> 
+            <ul>
+            <li>This project is about basic knowledge of OpenGL, and test that I can make program for Window and Web</li>
+            <li>By making my own OpenGL class, function I check my understanding for "OpenGL"</li>
+            <li>By building Window, Web version web I can check my understanding for "Build"</li>
+            <li>While doing this I try to check my weak points for basic OpenGL, Build </li>
+            </ul>
         <h2>Tasks Completed</h2>
         <ul>
-            <li>Describe the tasks you completed for this project.</li>
-            <li>Be specific about your contributions and the technologies used.</li>
+            <li>Based on interface code and pesudo code. I completed basic class and function about Index buffer, Texture, Vertex array, Vertex buffer </li>
+            <li>And I made my own vertex, frag shader which has an simple animation.</li>
+            <li>I like mario. So, try to made image looks like super star mario</li>
         </ul>
 
         <h2>Reflection</h2>
-        <p>Reflect on the project, discussing any challenges faced, solutions implemented, and what you learned from the
-            experience.</p>
+        <ul>
+            <li>First, I have a problem with OpenGL classes, functions. Especially vertex array. 
+                Becuase it was different with my previous class code. So, I used Render Doc due it has no direct relation with the porblem. 
+                But I assume the problem. The problem was vertex attribute pointer's stride set. So, I fixed it.
+                But I still have one more problem that image was squeezed. Thankfully, It was also vertex attribute pointer's porblem.
+                I can solve the porblem with my professor.
+            </li>
+            <li>
+                Second, I have a porblem with sending uniform to shader. 
+                I can figure it out easily by using base code from professor.
+            </li>
+            <li>
+                Finally, I have a problem with web version. I can't assume the problem at all.
+                But after I take a meeting with professor. I start to use debug mode for web version.
+                And with multiple tries. I can figure out the porblem. 
+                It was just simple problem I didn't set every global variable in shader as cosntant. So, I just moved it to main.
+            </li>
+        </ul>
+        
+        <h2>Thoughts</h2>
+        <ul>
+            <p>
+                By doing this assignment I realize I don't understand opengl, basic transformation, the way shader works and meaning of it.
+                So, with this thoughts I decided to learn about graphics math, mecahism. By reading previous semster notes.
+                And for the next assignment I will try to use debug mode more. I thought making and using debugging tool well is also important.
+            </p>
+        </ul>
+
     </div>
 
     <div class="portfolio-item-individual">
         <h2>Demo</h2>
-        <!-- TODO demo the webgl version of the project -->
         <iframe id="demo" src="../webgl/D01HelloQuad/graphics_fun.html"></iframe>
     </div>
 

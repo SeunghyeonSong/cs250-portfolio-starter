@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/CMakeFiles/dearimgui-populate"
+		},
+		{
+			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/CMakeFiles/dearimgui-populate.rule"
+		},
+		{
+			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/CMakeFiles/dearimgui-populate-complete.rule"
+		},
+		{
+			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-build.rule"
+		},
+		{
+			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-configure.rule"
+		},
+		{
+			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-download.rule"
+		},
+		{
+			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-install.rule"
+		},
+		{
+			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-patch.rule"
+		},
+		{
+			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-test.rule"
+		},
+		{
+			"file" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dearimgui-populate"
+		],
+		"name" : "dearimgui-populate"
+	}
+}

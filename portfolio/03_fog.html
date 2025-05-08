@@ -69,17 +69,20 @@
 
     <div class="portfolio-item-individual">
         <h2>Project Overview</h2>
-        <p>Provide a brief description of the project, its purpose, and what you aimed to achieve.</p>
+        <p>This project is about fog visual effect. I try to understand 3 typical way of implementeing fog effect.</p>
 
         <h2>Tasks Completed</h2>
         <ul>
-            <li>Describe the tasks you completed for this project.</li>
-            <li>Be specific about your contributions and the technologies used.</li>
+            <li>As I said above I tried 3 typical way of fog effect with shader. Get a reference from <a href="https://webgl2fundamentals.org/webgl/lessons/webgl-fog.html">webgl2fundamentals</a></li>
+            <li>1. Linear Fog: This way simply use position of model in camrea space.</li>
+            <li>2. gl_Fragcoord.z: This way simply use z fragcoord of pixel.</li>
+            <li>3. Exponentinal Fog: This way use position of model in camrea space and fog density. Based on two value I used exp2 function and this will make new fog amount</li>
+            <li>And all use smoothstep to get fogamount. And it gets bigger when distance gets far.</li>
         </ul>
 
         <h2>Reflection</h2>
-        <p>Reflect on the project, discussing any challenges faced, solutions implemented, and what you learned from the
-            experience.</p>
+        <p>For linear fog I tried wrong way that only consider z position. But I need to think that camera's range is like circular sector not an triangle. 
+            Anyway afeter I realized this I fixed it to consider distance with every coord.</p>
     </div>
 
     <div class="portfolio-item-individual">

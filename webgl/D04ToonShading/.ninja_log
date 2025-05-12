@@ -1,0 +1,37 @@
+# ninja log v6
+8	261	7687659277930373	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/stb_implementation.cpp	9ceccd2007ddaec7
+76	1695	7687659278616087	CMakeFiles/the_imgui.dir/_deps/dearimgui-src/backends/imgui_impl_opengl3.cpp.o	4750e65592c9ff1e
+94	2514	7687659278803051	CMakeFiles/the_imgui.dir/_deps/dearimgui-src/backends/imgui_impl_sdl2.cpp.o	54e20d34547add5c
+261	3318	7687659280466550	CMakeFiles/the_stb.dir/stb_implementation.cpp.o	d6ed446d28ea8fec
+47	3394	7687659278328350	CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui_tables.cpp.o	56aecc897f7b2759
+31	5368	7687659278166022	CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui_draw.cpp.o	ff0c84493b2c2b40
+60	6283	7687659278457740	CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui_widgets.cpp.o	664725826cd147d2
+3318	6308	7687659311034644	libthe_stb.a	fd42c27094fbd32a
+19	8381	7687659278043560	CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui.cpp.o	f15d6aefc3474369
+112	8443	7687659278972488	source/CMakeFiles/graphics_fun.dir/assets/Path.cpp.o	6e968521cedcbd10
+155	10400	7687659279403983	source/CMakeFiles/graphics_fun.dir/demos/D01HelloQuad.cpp.o	96ddcd5d3395ab8a
+8381	11671	7687659361660641	libthe_imgui.a	4b29dfe8e14a4941
+237	12170	7687659280217182	source/CMakeFiles/graphics_fun.dir/demos/D04ToonShading.cpp.o	9e8082067821f1a2
+5368	12648	7687659331540023	source/CMakeFiles/graphics_fun.dir/opengl/IndexBuffer.cpp.o	d39e5083a377ce0c
+193	12717	7687659279789190	source/CMakeFiles/graphics_fun.dir/demos/D02ProceduralMeshes.cpp.o	2da6e71c68e161fa
+174	13120	7687659279592312	source/CMakeFiles/graphics_fun.dir/demos/DemosFactory.cpp.o	a89b92cb92f09294
+134	13214	7687659279190076	source/CMakeFiles/graphics_fun.dir/assets/Reloader.cpp.o	be2f45b9628d2678
+218	14229	7687659280034727	source/CMakeFiles/graphics_fun.dir/demos/D03Fog.cpp.o	b9d557376dd2aa5f
+2521	14289	7687659303075264	source/CMakeFiles/graphics_fun.dir/graphics/Mesh.cpp.o	462747bd252470f
+6308	14548	7687659340932364	source/CMakeFiles/graphics_fun.dir/opengl/Texture.cpp.o	f2b1d979dfebf2ed
+3394	14608	7687659311792710	source/CMakeFiles/graphics_fun.dir/opengl/GL.cpp.o	2fa7a32abac47c37
+8604	15906	7687659363896357	source/CMakeFiles/graphics_fun.dir/opengl/VertexArray.cpp.o	7ebe410895a81af7
+10404	17510	7687659381898834	source/CMakeFiles/graphics_fun.dir/opengl/VertexBuffer.cpp.o	fe0abc74733613d4
+14290	17686	7687659421100959	source/CMakeFiles/graphics_fun.dir/window/Logo.cpp.o	588cc2c9ce0299ae
+6288	18619	7687659340740488	source/CMakeFiles/graphics_fun.dir/opengl/Shader.cpp.o	f2fffaa1fbd9c2dc
+11671	18690	7687659394575692	source/CMakeFiles/graphics_fun.dir/util/Directory.cpp.o	ba6a35de7db6e35a
+1698	18921	7687659294841402	source/CMakeFiles/graphics_fun.dir/graphics/Material.cpp.o	19d626f7bd26c09
+12648	19668	7687659404339119	source/CMakeFiles/graphics_fun.dir/util/Random.cpp.o	a477e4108f83627d
+13121	19765	7687659409059992	source/CMakeFiles/graphics_fun.dir/window/input/SDLInput.cpp.o	1154a5e5cb59e94e
+12717	20405	7687659405023627	source/CMakeFiles/graphics_fun.dir/util/WatchFiles.cpp.o	27edac5127cff0f1
+12171	20561	7687659399565747	source/CMakeFiles/graphics_fun.dir/util/Logger.cpp.o	7a1badb0e1dcee40
+14230	20795	7687659420151102	source/CMakeFiles/graphics_fun.dir/window/ImGuiHelper.cpp.o	591edf134e1be79
+14608	21492	7687659423937573	source/CMakeFiles/graphics_fun.dir/main.cpp.o	41dd8233031fbfee
+14548	21837	7687659423339692	source/CMakeFiles/graphics_fun.dir/window/Settings.cpp.o	9d8abf40daabb246
+13215	21978	7687659409997989	source/CMakeFiles/graphics_fun.dir/window/Application.cpp.o	ea0620889d646977
+21978	33064	7687659497639998	graphics_fun.html	223fd169baf273f7

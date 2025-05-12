@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "_deps/gsl-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-_deps.gsl-build-Debug-5410328880959195a841.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/web-debug-on-windows/_deps/gsl-src"
+				},
+				{
+					"build" : "_deps/gsl-build/include",
+					"jsonFile" : "directory-_deps.gsl-build.include-Debug-b29327d09355929f5758.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/web-debug-on-windows/_deps/gsl-src/include"
+				},
+				{
+					"build" : "_deps/glm-build",
+					"jsonFile" : "directory-_deps.glm-build-Debug-aa434cbdfcc50e9a5df0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/web-debug-on-windows/_deps/the_glm-src/glm"
+				},
+				{
+					"build" : "source",
+					"jsonFile" : "directory-source-Debug-be4710394502bfacce20.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3,
+						4
+					],
+					"name" : "cs250",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "GSL",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "graphics_fun::@411ffd8adc737496fe19",
+					"jsonFile" : "target-graphics_fun-Debug-c457c49e556dd6d07ffe.json",
+					"name" : "graphics_fun",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "the_imgui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-the_imgui-Debug-8d09bdd5a59e213466f5.json",
+					"name" : "the_imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "the_stb::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-the_stb-Debug-2ae0bf19cce517514111.json",
+					"name" : "the_stb",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows",
+		"source" : "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

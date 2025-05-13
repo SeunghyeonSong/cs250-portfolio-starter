@@ -1,21 +1,21 @@
-# ninja log v6
-3	85	7687658652914318	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-mkdir	ed0ec127b800b5b7
-3	85	7687658652914318	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-mkdir	ed0ec127b800b5b7
-86	48103	7687659133085806	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-download	89b0ac1035687d8d
-86	48103	7687659133085806	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-download	89b0ac1035687d8d
-48103	48313	7687659133172470	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-update	51f491f8016ef5ea
-48103	48313	7687659133172470	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-update	51f491f8016ef5ea
-48313	48389	7687659135937694	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-patch	5d1a4e290070d390
-48313	48389	7687659135937694	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-patch	5d1a4e290070d390
-48389	48474	7687659136786548	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-configure	488664414f5ae083
-48389	48474	7687659136786548	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-configure	488664414f5ae083
-48474	48552	7687659137578749	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-build	3659731efa192dce
-48474	48552	7687659137578749	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-build	3659731efa192dce
-48552	48664	7687659138691818	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-install	888128838345c1a5
-48552	48664	7687659138691818	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-install	888128838345c1a5
-48664	48741	7687659139462846	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-test	71b464309b6e940e
-48664	48741	7687659139462846	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-test	71b464309b6e940e
-48742	48846	7687659140514492	CMakeFiles/dearimgui-populate-complete	48a9fcabefaffc5a
-48742	48846	7687659140514492	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-done	48a9fcabefaffc5a
-48742	48846	7687659140514492	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/CMakeFiles/dearimgui-populate-complete	48a9fcabefaffc5a
-48742	48846	7687659140514492	D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-done	48a9fcabefaffc5a
+# ninja log v5
+68	178	1747133771669395800	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-mkdir	8e7fa60ae5dcc7
+68	178	1747133771669395800	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-mkdir	8e7fa60ae5dcc7
+187	45014	1747133817426242500	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-download	9b18c2f159571f4d
+187	45014	1747133817426242500	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-download	9b18c2f159571f4d
+45020	45262	0	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-update	8a9626c0c56eed96
+45020	45262	0	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-update	8a9626c0c56eed96
+45271	45297	1747133817733593900	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-patch	d0c9e94081695b2d
+45271	45297	1747133817733593900	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-patch	d0c9e94081695b2d
+45303	45327	1747133817767286200	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-configure	b27e38dc7c0cf4f
+45303	45327	1747133817767286200	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-configure	b27e38dc7c0cf4f
+45332	45356	1747133817799236100	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-build	20fa1b63b3842930
+45332	45356	1747133817799236100	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-build	20fa1b63b3842930
+45360	45384	1747133817829986300	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-install	cf9271a0556af09
+45360	45384	1747133817829986300	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-install	cf9271a0556af09
+45389	45415	1747133817863175100	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-test	70cad14947a77c83
+45389	45415	1747133817863175100	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-test	70cad14947a77c83
+45420	45457	1747133817909133000	CMakeFiles/dearimgui-populate-complete	63103223ac871d0b
+45420	45457	1747133817909133000	dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-done	63103223ac871d0b
+45420	45457	1747133817909133000	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/dearimgui-subbuild/CMakeFiles/dearimgui-populate-complete	63103223ac871d0b
+45420	45457	1747133817909133000	/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/dearimgui-subbuild/dearimgui-populate-prefix/src/dearimgui-populate-stamp/dearimgui-populate-done	63103223ac871d0b

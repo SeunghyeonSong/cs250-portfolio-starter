@@ -1,13 +1,7 @@
 # Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
 # file Copyright.txt or https://cmake.org/licensing for details.
 
-cmake_minimum_required(VERSION 3.28.3-msvc11)
-
-# Reject any attempt to use a toolchain file. We must not use one because
-# we could be downloading it here. If the CMAKE_TOOLCHAIN_FILE environment
-# variable is set, the cache variable will have been initialized from it.
-unset(CMAKE_TOOLCHAIN_FILE CACHE)
-unset(ENV{CMAKE_TOOLCHAIN_FILE})
+cmake_minimum_required(VERSION 3.22.1)
 
 # We name the project and the target for the ExternalProject_Add() call
 # to something that will highlight to the user what we are working on if
@@ -19,16 +13,15 @@ project(glm-populate NONE)
 
 include(ExternalProject)
 ExternalProject_Add(glm-populate
-                     "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "TRUE" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "URL" "https://github.com/g-truc/glm/releases/download/1.0.1/glm-1.0.1-light.7z" "URL_HASH" "MD5=6db43fc749c8acdc8ccb9815b1a57f62"
-                    SOURCE_DIR          "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/the_glm-src/glm"
-                    BINARY_DIR          "D:/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-debug-on-windows/_deps/glm-build"
+                     "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "TRUE" "URL" "https://github.com/g-truc/glm/releases/download/1.0.1/glm-1.0.1-light.7z" "URL_HASH" "MD5=6db43fc749c8acdc8ccb9815b1a57f62"
+                    SOURCE_DIR          "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/the_glm-src/glm"
+                    BINARY_DIR          "/mnt/d/GIthub Code/cs250-graphics-fun-SeunghyeonSong/build/web-release/_deps/glm-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""
                     TEST_COMMAND        ""
                     USES_TERMINAL_DOWNLOAD  YES
                     USES_TERMINAL_UPDATE    YES
-                    USES_TERMINAL_PATCH     YES
 )
 
 

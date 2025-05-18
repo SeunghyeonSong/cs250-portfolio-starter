@@ -69,17 +69,31 @@
 
     <div class="portfolio-item-individual">
         <h2>Project Overview</h2>
-        <p>Provide a brief description of the project, its purpose, and what you aimed to achieve.</p>
+        <p>Implement shdaow shader with shadow mapping. Undersatnd shadow mapping's base logic. I aim to understand whole logic of it.</p>
 
         <h2>Tasks Completed</h2>
         <ul>
-            <li>Describe the tasks you completed for this project.</li>
-            <li>Be specific about your contributions and the technologies used.</li>
+            <li>Modify Texture codes can make depth texture.</li>
+            <li>Add new function at Camera codes which return ViewMatrix and ToWorldMatrix</li>
+            <li>Modify FrameBuffer codes to make new frame buffer.</li>
+            <li>Modify demo5 codes able to draw objects, shadows, shadow map.</li>
+            <li>Complete shdaow vertex, fragment shader.</li>
+            <li>Finally, check every code working well.</li>
         </ul>
 
         <h2>Reflection</h2>
-        <p>Reflect on the project, discussing any challenges faced, solutions implemented, and what you learned from the
-            experience.</p>
+        <ul>
+            It was hard to understand whole progress to me.
+            <li>I have a hard with making camera matrix without inverse. 
+                But thankfully base matrix of ToWorldMatrix was rotate and translation. 
+                So, the form of inverse was simple it only needs dot product function. 
+            </li>
+            <li>For the demo codes I have lack of understanding about functions. 
+                But keep thinking and looking previous demo I could understand that whole function is mainly drawing shadow, model, shadow map.</li>
+            <li>I have a confuse with making shadow shader's fragment and vertex shader. 
+                But by looking previous shaders and looking  "OpenGL® Programming Guide: The Official Guide to Learning OpenGL®, Version 4.5 with SPIR-V, Ninth Edition" Book I can figure out the problems.</li>
+        </ul>
+
     </div>
 
     <div class="portfolio-item-individual">

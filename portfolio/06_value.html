@@ -69,17 +69,31 @@
 
     <div class="portfolio-item-individual">
         <h2>Project Overview</h2>
-        <p>Provide a brief description of the project, its purpose, and what you aimed to achieve.</p>
+        <p>This project shows value noise and its variation. I try to understand typical mechanism of it.</p>
 
         <h2>Tasks Completed</h2>
         <ul>
-            <li>Describe the tasks you completed for this project.</li>
-            <li>Be specific about your contributions and the technologies used.</li>
+            <li>For faster speed I add my old thread system. Main purpose of it is seperating noise job into small piece and do it parrarely.</li>
+            <li>Then I implemented value noise. Following to professor's recommendation. I make surrport function to increase intuitive and efficieny. 
+                First, I made noise coordinate. This will use to save necesseary value like integer version of base point and interpolant, next point. 
+                Second, I made fade function to make interpolant smoother. 
+                Third, I made three interpolation function. Each function is use for 1d and 2d, 3d.
+                Fourth, I made premuation hash to make ranged random values. This will automatically change by dimension. And by using & it will be faster than modulus in usual case.
+                Then by using all function and class I can make value noise. This will return random but smooth value.
+            </li>
+            <li>Finally, I made simple fragment and vertex shader for value noise texture.</li>
         </ul>
 
         <h2>Reflection</h2>
-        <p>Reflect on the project, discussing any challenges faced, solutions implemented, and what you learned from the
-            experience.</p>
+        <ul>
+            <li> I have hard with hash function because of when dimension is bigger then 2d index keep go out of range. 
+                But after I remebered that just simply twice the size of table I could fix it.
+            </li>
+            <li> Then I have problem with thread. The main problem is adding new function that checks program is end or not.
+                So, I simply keep track jobs size is lesser than 0 or not.    
+            </li>
+        </ul>
+
     </div>
 
     <div class="portfolio-item-individual">

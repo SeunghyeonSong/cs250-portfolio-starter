@@ -68,17 +68,41 @@
 
     <div class="portfolio-item-individual">
         <h2>Project Overview</h2>
-        <p>Provide a brief description of the project, its purpose, and what you aimed to achieve.</p>
+        <p>
+            This assignment's purpose is to make various pattern of  terrain with perlin noise.
+            I try to understand whole mechanism of perlin noise and pattern algorithm.
+        </p>
 
         <h2>Tasks Completed</h2>
         <ul>
-            <li>Describe the tasks you completed for this project.</li>
-            <li>Be specific about your contributions and the technologies used.</li>
+            <li>There was big 3 step to do.</li>
+            <li>First, I have to modify frame buffer and texture class able to produce R32F texture.</li>
+            <li>
+                Second, I have to make perlin noise that will produce noise value. Main flow was same as value noise.
+                But for fade I used quintic instead of smoothstep because it's more smoother.
+                For better distribution I used fixed 16 gradients. 
+            </li>
+            <li>Then I made 4 pattern algorithm (Fractal Sum, Turbulence, Marble, Wood). Based on professor's code.</li>
         </ul>
 
         <h2>Reflection</h2>
-        <p>Reflect on the project, discussing any challenges faced, solutions implemented, and what you learned from the
-            experience.</p>
+        <ul>
+            <li>
+                In first time had hard time with understanding the point making texture based on framebuffer.
+            But I could firgure it out by reading demo7's code. It's just coloring texture based on framebuffer.
+            </li>
+            <li> 
+                Then I had problem with understanding basic logic of prelin noise.
+                But the main difference was only we are using fixed table and gradient, using quintic instead of smoothstep.
+            </li>
+            <li>
+                I have confusion with & table_size - 1. And I didn't know I have to evaluate noise multiple time.
+                (It seems unefficient.)
+            </li>
+            <li>
+                Lastly, I have a problem with mouse. 
+            </li>
+        </ul>
     </div>
 
     <div class="portfolio-item-individual">

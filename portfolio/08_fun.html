@@ -69,45 +69,71 @@
     <div class="portfolio-item-individual">
         <h2>Project Overview</h2>
         <p>
-            This assignment's purpose is to make various pattern of  terrain with perlin noise.
-            I try to understand whole mechanism of perlin noise and pattern algorithm.
+            This is my custom demo. Which will show my understanding about overall course.
+            In this demo I try to use every knowledge I get from class.
         </p>
 
-        <h2>Tasks Completed</h2>
+        <h2>Opengl Tech</h2>
+        <p>
+            In this paragraph I'm going to talk about opengl tech.
+            Below list is mainly techinque I learned at class. (PS. I didn't used shadow mapping. Instead of I add new tech quite similar to it.)
+        </p>
         <ul>
-            <li>There was big 3 step to do.</li>
-            <li>First, I have to modify frame buffer and texture class able to produce R32F texture.</li>
+            <li>I used procedural meshes techinque to make plane for sea and sphere for stars.</li>
+            <li>Then I used fog for making more natural view for player. I made it with shader.</li>
+            <li>I used toon shading based to make wired celstial body which looks like black hole + saturn. Also used shader.</li>
+            <li>I used value noise to made moon. Not likely star, moon doesn't need real time animtaion.</li>
+            <li>I used gradient noise to made sea texture and stars. This make objects more realistic.</li>
+        </ul>
+        <p>
+            I can't add new tech. I try to understand it but it has a lot of problem.
+        </p>
+
+        <h2>Fun Tech</h2>
+        <p>
+            In this paragraph I'm going to talk about other fun and simple tech except opengl tech.
+        </p>
+        <ul>
+            <li>To make sea and star surface look naturally. I made texture to move. And these made more natural.</li>
+            <li>To make black hole I used torus and this made more cooler.</li>
+            <li>And for making eclipse I just assume the situation when two objects start to collide. And when they collide I used easing to make it more natural.</li>
+            <li>To make zooming I used fov to be shrink with easing.</li>
             <li>
-                Second, I have to make perlin noise that will produce noise value. Main flow was same as value noise.
-                But for fade I used quintic instead of smoothstep because it's more smoother.
-                For better distribution I used fixed 16 gradients. 
+                To make star field I used tech from zelda orcarina of time. 
+                To implement sky it used small sphere that keep follows camrea. 
+                And this was easy to implement. And for random star position I used hash.
+                To make star not to cover other objects I disable depth test.
+                And to set sky to be shown inside I change back face culling.
+                (I kind of do something stupid because I don't have time.)
             </li>
-            <li>Then I made 4 pattern algorithm (Fractal Sum, Turbulence, Marble, Wood). Based on professor's code.</li>
+
         </ul>
 
         <h2>Reflection</h2>
+        <p>
+            I had hard to making base code for demo. But I figured it out by using gradient noise code.
+            And look other demo code. It was hard to combining knowledge and I had lots of missing point in understanding. 
+            So same as demo code I look other demo code and notes.
+        </p>
+
+        <h2>How to play</h2>
+        <p>
+            Try to find 5 different Celestial body.
+        </p>
         <ul>
-            <li>
-                In first time had hard time with understanding the point making texture based on framebuffer.
-            But I could firgure it out by reading demo7's code. It's just coloring texture based on framebuffer.
-            </li>
-            <li> 
-                Then I had problem with understanding basic logic of prelin noise.
-                But the main difference was only we are using fixed table and gradient, using quintic instead of smoothstep.
-            </li>
-            <li>
-                I have confusion with & table_size - 1. And I didn't know I have to evaluate noise multiple time.
-                (It seems unefficient.)
-            </li>
-            <li>
-                Lastly, I have a problem with mouse. 
-            </li>
+            <li>Move with W A S D</li>
+            <li>You can move screen by clicking mouse right button and moving it.</li>
+            <li>You can zoom the screen with mouse left button. It will also remove fog.</li>
+            <li>Right of the window there are imgui buttons. You can custom several objects.</li>
         </ul>
+        <p>
+            Now please enjoy the demo. And thank you for playing. 
+        </p>
     </div>
 
     <div class="portfolio-item-individual">
         <h2>Demo</h2>
-        <iframe id="demo" src="../webgl/D08GradientNoise/graphics_fun.html?start=gradient" tabindex="-1"></iframe>
+        <iframe id="demo" src="../webgl/D08Fun/graphics_fun.html?start=fun" tabindex="-1"></iframe>
     </div>
 
     <!-- Footer -->
